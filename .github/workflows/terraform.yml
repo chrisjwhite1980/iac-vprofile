@@ -18,7 +18,7 @@ env:
   AWS_SECRET_KEY_ID: ${{ secrets.AWS_SECRET_KEY_ID }}
   #S3 bucket for terraform state
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
-  AWS_REGION: us-west-2
+  AWS_REGION: eu-west-2
   EKS_CLUSER: vprofile-eks
 
 jobs:
