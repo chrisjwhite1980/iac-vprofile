@@ -29,7 +29,7 @@ terraform {
   backend "s3" {
     bucket = "vprofileactions1980"
     key    = "terraform.tfstate"
-    region = "us-west-2"
+    region = "eu-west-2"
   }
 
   required_version = "~> 1.6.3"
